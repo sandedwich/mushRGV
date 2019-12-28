@@ -1,0 +1,70 @@
+/* ******************************************************************* TAG SELECTORS ******************************************************************* */
+
+body {
+
+    font-family: 'Lora', serif;
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+
+    color: #e9ea77;
+}
+
+p {
+
+    text-align: left;
+}
+
+/* ******************************************************************* CLASS SELECTORS ******************************************************************* */
+
+.navbar {
+
+    padding-left: 0;
+}
+.navbar li {
+
+    display: inline;
+    margin: 0 25px;
+}
+
+/* ******************************************************************* ID SELECTORS ******************************************************************* */
+
+#front-page-content {
+
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+
+#front-page-carousel {
+
+    padding-top: 20px;
+    width: 20%;
+    margin: auto;
+}
+
+#footer {
+
+
+    background-color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#footer p {
+
+    color: gray;
+    text-align: center;
+}
+
+#footer a {
+
+    margin: 15px;
+}
