@@ -1,0 +1,41 @@
+body {
+
+    font-family: 'Lora', serif;
+}
+
+ul {
+
+    padding-left: 0;
+}
+
+li {
+
+    display: inline;
+    margin: 0 15px;
+}
+
+h1 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* have any idea where we make a horizontal list for each town and using a letter to distinguish them in alpha order, peace out ed */
+
+
+.btn {
+
+    margin: 20px 10px;
+}
+
+.appendBTN {
+
+    margin-left: 20px;
+}
+
+#main-content {
+
+    text-align: center;
+
+    margin: 10px 100px;
+    padding: 50px 0;
+}
