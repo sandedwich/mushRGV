@@ -21,6 +21,11 @@ p {
     text-align: left;
 }
 
+img {
+
+    width: 80%;
+}
+
 /* ******************************************************************* CLASS SELECTORS ******************************************************************* */
 
 .navbar {
@@ -75,4 +80,12 @@ p {
 
         margin: 5px auto;
     }
+
+    #front-page-carousel {
+
+        padding-top: 20px;
+        width: 85%;
+        margin: auto;
+    }
+
 }

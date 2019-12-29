@@ -1,0 +1,26 @@
+a {
+
+    color: black;
+}
+
+
+body {
+
+    font-family: 'Lora', serif;
+
+}
+
+.previous-shows {
+
+    font-size: .9rem;
+}
+
+.previous-shows h1 {
+
+    font-size: 2rem;
+}
+
+.main-content {
+
+    padding: 20px 20px;
+}
