@@ -1,0 +1,99 @@
+/* ************************************************ TAG SELECTORS ************************************************ */
+
+a {
+
+    color: black;
+    margin: auto;
+}
+
+body {
+
+    font-family: 'Lora', serif;
+}
+
+h1 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+li {
+
+    display: inline;
+    margin: 0 15px;
+}
+
+ul {
+
+    padding-left: 0;
+
+}
+
+/* ************************************************ CLASS SELECTORS ************************************************ */
+
+.appendBTN {
+
+    margin-left: 20px;
+}
+
+.btn {
+
+    margin: 20px 10px;
+}
+
+.city {
+
+    margin: 40px auto;
+}
+
+.col-lg-2 {
+
+    margin: 5px 0;
+}
+
+.container {
+
+    margin: 20px auto;
+}
+
+.longassnames {
+
+    font-size: .912rem;
+}
+
+.row {
+
+    text-align: center;
+}
+
+/* ************************************************ ID SELECTORS ************************************************ */
+
+#main-content {
+
+    text-align: center;
+
+    margin: 10px 50px;
+    padding: 10px 0;
+}
+
+#mcallen {
+
+    margin: 20px 50px;
+}
+
+#edinburg {
+
+    margin: 40px 50px;
+}
+
+@media (max-width: 600px){
+
+    .appendBTN {
+
+        margin-left: 0;
+    }
+    .submissions {
+
+        text-align: center;
+    }
+}

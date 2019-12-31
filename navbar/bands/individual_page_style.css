@@ -1,0 +1,80 @@
+html, body {
+
+    font-family: 'Lora', 'sans-serif';
+    height: 100%;
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.albums {
+
+    margin: 10px 0;
+}
+
+.album-covers {
+
+    width: 50%;
+
+    border-style: solid;
+    border-width: 2px;
+}
+
+.member-names {
+
+    margin: 10px 0;
+}
+
+.side-bar-sections {
+
+    margin-bottom: 15px;
+}
+
+.subs {
+
+    font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 0 0 10px 0;
+}
+
+#side-bar {
+
+    text-align: center;
+
+
+    height: 100%;
+    width: 15%;
+
+    
+
+    padding-top: 35px;
+  
+
+    float: left;
+
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: gray;
+}
+
+#main-content {
+
+    padding: 35px 20px 20px;
+    margin: 0 20% 0 18%;
+}
