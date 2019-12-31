@@ -84,3 +84,17 @@ ul {
     padding: 35px 20px 20px;
   
 }
+
+@media (max-width: 600px){
+
+    #side-bar {
+
+        border-right-style: none;
+        border-right-width: 0;
+    }
+
+    h1 {
+
+        text-align: center;
+    }
+}
