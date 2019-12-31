@@ -34,6 +34,11 @@ ul {
     border-width: 2px;
 }
 
+.container {
+
+    margin-left: 0;
+}
+
 .member-names {
 
     margin: 10px 0;
@@ -59,11 +64,12 @@ ul {
 
 
     height: 100%;
-    width: 15%;
+
 
     
 
     padding-top: 35px;
+    padding-right: 15px;
   
 
     float: left;
@@ -76,5 +82,5 @@ ul {
 #main-content {
 
     padding: 35px 20px 20px;
-    margin: 0 20% 0 18%;
+  
 }
