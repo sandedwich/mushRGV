@@ -2,6 +2,7 @@ html, body {
 
     font-family: 'Lora', 'sans-serif';
     height: 100%;
+    width: 100%;
 }
 
 a {
@@ -34,9 +35,14 @@ ul {
     border-width: 2px;
 }
 
-.container {
+.btn {
 
-    margin-left: 0;
+    margin: 0 10px;
+}
+
+.checkered {
+
+    background-color: #c9d1d3;
 }
 
 .member-names {
@@ -58,6 +64,27 @@ ul {
     margin: 0 0 10px 0;
 }
 
+.story-table {
+
+    text-align: left;
+}
+
+.row {
+
+    margin-top: 3%;
+}
+
+.table {
+
+    padding: 5px;
+}
+
+#com-stories {
+
+    padding-top: 35px;
+    text-align: center;
+}
+
 #side-bar {
 
     text-align: center;
@@ -67,7 +94,6 @@ ul {
 
 
     
-
     padding-top: 35px;
     padding-right: 15px;
   

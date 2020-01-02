@@ -88,4 +88,9 @@ img {
         margin: auto;
     }
 
+    #front-page-content {
+
+        width: 100%;
+    }
+
 }
