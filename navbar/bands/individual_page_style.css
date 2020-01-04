@@ -13,7 +13,7 @@ a {
 
 a:hover {
 
-    color: black;
+    color: pink;
     text-decoration: none;
 }
 
@@ -74,10 +74,6 @@ ul {
     margin-top: 3%;
 }
 
-.table {
-
-    padding: 5px;
-}
 
 #com-stories {
 
@@ -89,16 +85,10 @@ ul {
 
     text-align: center;
 
-
     height: 100%;
 
-
-    
     padding-top: 35px;
     padding-right: 15px;
-  
-
-    float: left;
 
     border-right-style: solid;
     border-right-width: 1px;
