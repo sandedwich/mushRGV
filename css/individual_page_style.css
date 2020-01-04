@@ -1,0 +1,123 @@
+html, body {
+
+    font-family: 'Lora', 'sans-serif';
+    height: 100%;
+    width: 100%;
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: pink;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.albums {
+
+    margin: 10px 0;
+}
+
+.album-covers {
+
+    width: 50%;
+
+    border-style: solid;
+    border-width: 2px;
+}
+
+.btn {
+
+    margin: 0 10px;
+}
+
+.checkered {
+
+    background-color: #c9d1d3;
+}
+
+.member-names {
+
+    margin: 10px 0;
+}
+
+.side-bar-sections {
+
+    margin-bottom: 15px;
+}
+
+.subs {
+
+    font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 0 0 10px 0;
+}
+
+.story-table {
+
+    text-align: left;
+}
+
+
+
+.row {
+
+    margin-top: 3%;
+}
+
+
+#com-stories {
+
+    padding-top: 35px;
+    text-align: center;
+}
+
+#side-bar {
+
+    text-align: center;
+
+    height: 100%;
+
+    padding-top: 35px;
+    padding-right: 15px;
+
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: gray;
+}
+
+#main-content {
+
+    padding: 35px 20px 20px;
+  
+}
+
+#primary-row {
+
+    margin-top: 0;
+}
+
+@media (max-width: 600px){
+
+    #side-bar {
+
+        border-right-style: none;
+        border-right-width: 0;
+    }
+
+    h1 {
+
+        text-align: center;
+    }
+}
