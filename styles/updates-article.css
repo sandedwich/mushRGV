@@ -1,0 +1,47 @@
+body {
+    font-family: 'Coda', cursive;
+}
+
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 250%;
+}
+
+.navbar {
+
+    padding-left: 2%; /* pushes the navbar a little further to the left since i didn't like how close it was to the logo */
+}
+
+.sorted-by {
+    text-decoration: none;
+    padding: 4px 24px;
+}
+
+#navbarSupportedContent {
+
+    margin-left: 2%;
+    font-family: 'Coda', cursive;
+}
+
+#bundles-nav-link {
+
+    padding-left: 0;
+}
+
+.content {
+
+    margin: 5% 10% 10% 10%;
+    padding-top: 50px;
+}
+
+.title {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1000px){
+
+    .content {
+        margin: 2% 8%;
+        padding-top: 50px;
+    }
+}

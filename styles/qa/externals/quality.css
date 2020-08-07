@@ -1,0 +1,28 @@
+body {
+    font-family: 'Coda', cursive;
+}
+
+p {
+    margin: 5% 0;
+}
+
+.container {
+    padding-top: 3%;
+}
+.logo {
+    font-family: 'Lobster', cursive;
+}
+
+.content {
+    margin: 5% 25%;
+}
+
+@media (max-width: 1000px){
+    .container {
+        padding: 35px 7%;
+    }
+
+    p {
+        margin: 15% 0;
+    }
+}

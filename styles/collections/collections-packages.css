@@ -1,0 +1,74 @@
+body {
+    font-family: 'Coda', cursive;
+}
+
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 250%;
+}
+
+.navbar {
+
+    padding-left: 2%; /* pushes the navbar a little further to the left since i didn't like how close it was to the logo */
+}
+
+.sorted-by {
+    text-decoration: none;
+    padding: 4px 24px;
+}
+
+#navbarSupportedContent {
+
+    margin-left: 2%;
+    font-family: 'Coda', cursive;
+}
+
+#bundles-nav-link {
+
+    padding-left: 0;
+}
+
+.content {
+    margin: 4% 6%;
+}
+
+.title {
+    margin: 50px 0;
+}
+
+.product-pic {
+    width: 80%;
+    border-radius: 2%;
+}
+
+.col-4 {
+    padding: 0;
+}
+
+.product-description {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.info-section {
+    margin-bottom: 75px;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
+
+@media (max-width: 1000px){
+    .content {
+        text-align: center;
+    }
+
+    .text-section {
+        text-align: left;
+    }
+}

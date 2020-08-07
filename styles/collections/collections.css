@@ -1,0 +1,130 @@
+body {
+    height: 100vh;
+    font-family: 'Coda', cursive;
+}
+
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 250%;
+}
+
+.navbar {
+
+    padding-left: 2%; /* pushes the navbar a little further to the left since i didn't like how close it was to the logo */
+}
+
+.sorted-by {
+    text-decoration: none;
+    padding: 4px 24px;
+}
+
+#navbarSupportedContent {
+
+    margin-left: 2%;
+    font-family: 'Coda', cursive;
+}
+
+#bundles-nav-link {
+
+    padding-left: 0;
+}
+
+.collections {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.collection-link {
+    color: black;
+}
+
+.collection-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    margin: 5% 10% 10% 10%;
+    line-height: 1.5;
+}
+
+
+.price {
+    color: lightgray;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.pay-block {
+    margin-top: 100px;
+}
+
+.pay-wall {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.test-wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pay-method {
+
+    width: 15%;
+    border-radius: 7%
+}
+
+.steps {
+    text-align: left;
+    font-weight: bold;
+}
+
+.instructions {
+    margin-top: 50px;
+}
+
+.rule {
+    margin: 50px 0;
+}
+
+.missing-info-notice {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.here-link-red {
+    color: red;
+    text-decoration: underline;
+}
+.here-link-red:hover {
+    color: red;
+}
+
+.here-link {
+    text-decoration: underline;
+    color: black;
+}
+.here-link:hover {
+    color: black;
+}
+
+@media (max-width: 1000px){
+    
+    .content {
+        margin: 2%;
+        padding-top: 50px;
+    }
+
+    .col-sm-12 {
+        margin-bottom: 120px;
+    }
+}

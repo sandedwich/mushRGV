@@ -1,0 +1,51 @@
+body {
+    font-family: 'Coda', cursive;
+}
+
+p {
+    margin: 4% 0;
+}
+
+.container {
+    padding-top: 3%;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+}
+
+.percentage {
+    text-align: right;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.notice-section {
+    padding: 0;
+}
+.notice-host {
+    margin-bottom: 10px;
+}
+
+.notice {
+    font-size: 12px;
+}
+
+@media (max-width: 1000px){
+ 
+    .container {
+        padding: 35px 7%;
+    }
+    
+    p {
+        margin: 15% 0;
+    }
+}
